@@ -1,0 +1,49 @@
+div{
+    height: 50px;
+    width: 300px;
+    overflow: hidden;
+}
+div:hover{   
+overflow:visible;
+}
+ul{
+    display: list-item;
+}
+li{
+    list-style-type: circle;
+}
+#black{
+
+    list-style-type: square;
+    color: black;
+}
+
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+table th{
+    border: 2px solid; 
+    text-align: center;
+    height:50px;
+    width: 200px;
+    background-color:#554348;
+    border-color: #554348;
+}
+.data{
+    text-align: center;
+}
+
+table td{
+    border:2px solid;
+    border-color: #554348;
+}
+tr:nth-child(odd)
+{
+background-color: #8C9A9E;
+}
+tr:nth-child(even)
+{
+background-color: #D4F5F5;
+}
